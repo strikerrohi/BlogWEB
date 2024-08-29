@@ -1,0 +1,14 @@
+.main {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .main:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5); /* Optional: darkens the background image */
+    z-index: 1;
+  }
+  
